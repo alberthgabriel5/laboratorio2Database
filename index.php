@@ -1,9 +1,5 @@
 <!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
+
 <html>
     <head>
         <meta charset="UTF-8">
@@ -11,7 +7,11 @@ and open the template in the editor.
     </head>
     <body>
         <?php
-        // put your code here
+        //include './Data/DataFile.php';
+        //header('location: ./Presentation/TypeProduct/typeProductInterface.php');
         ?>
+        
+        <a href="Presentation/TypeProduct/typeProductInterface.php">Tipo de Producto</a>
+        <a href="Presentation/Product/ProductCreate.php">Producto</a>
     </body>
 </html>
